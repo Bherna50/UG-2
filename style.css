@@ -68,7 +68,7 @@ nav {
 nav ul {
 	list-style-type: none;
     display: flex;
-	gap: 30px;
+	gap: 50px;
 }
 nav a {
 	color: rgb(255, 215, 6);
