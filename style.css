@@ -74,11 +74,8 @@ nav a {
 	color: rgb(255, 215, 6);
     
 }
-nav a:hover {
+a:hover {
     background-color: var(--grey);
-}
-ul {
-	color:var(--yellow);
 }
 ul a{
 	color: var(--yellow);
