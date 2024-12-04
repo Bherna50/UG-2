@@ -57,9 +57,12 @@ table {
 }
 body {
 	background-color: var(--black);
+	font-size: 16px;
 }
 h1 {
 color: var(--yellow);
+font-weight: bold;
+font-size: 32px;
 }
 nav {
 	
@@ -77,15 +80,23 @@ nav a {
 a:hover {
     background-color: var(--grey);
 }
-ul a{
+h2{
 	color: var(--yellow);
+	font-size: 20px;
+	font-weight: bold;
+}
+ul a{
+	color: white;
 	text-decoration: none;
+	
 }
 
 form {
-	color: var(--yellow);
+	color: white;
+	
 }
 footer{
-	color: var(--yellow);
+	color: white;
+
 }
 
