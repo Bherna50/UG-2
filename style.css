@@ -69,12 +69,8 @@ nav ul {
 	gap: 50px;
 	margin-left: 25px;
 }
-nav a {
-	color: rgb(255, 215, 6);
-    
-}
 a:hover {
-    background-color: var(--grey);
+    background-color: darkred;
 }
 #logo {
 	display: block;
