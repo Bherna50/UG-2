@@ -25,16 +25,17 @@
             <li><a href="#">Pro</a></li>
         </ul>
         <input type="text" placeholder="Search..." id="search">
+        
         <button class="light-mode"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
             <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
-          </svg></button>
-          <button class="dark-mode"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+        </svg></button>
+        <button class="dark-mode"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
             <path d="M12 1.992a10 10 0 1 0 9.236 13.838c.341 -.82 -.476 -1.644 -1.298 -1.31a6.5 6.5 0 0 1 -6.864 -10.787l.077 -.08c.551 -.63 .113 -1.653 -.758 -1.653h-.266l-.068 -.006l-.06 -.002z"></path>
-          </svg></button>
+        </svg></button>
         
     </nav>
     </header>
-
+<!--kept trying using sections for these to try to organize the way I wanted but calling them would not work and would just get messy-->
     <main>
         <!--https://images.squarespace-cdn.com/content/v1/51061354e4b0869f6417701e/1635884286989-9FBFNXZNHDPUDH23X5ZC/IMG_3039.jpg?format=1000w-->
         <img src="images/Jinjer-3.jpg" alt="" id="jinjer">
@@ -64,28 +65,30 @@
                 <li><a href="#">Dying Wish</a></li>
                 <li><a href="#">The Cure</a></li>
             </ul>
-            <label for="pass" id="pass">Guess # (1-10)</label>
+        <form id="game">
+            <label for="pass" id="label">Guess # (1-10)</label>
             <input type="number" id="guessInput">
             <button id="guess">Guess</button>
             <p id="message"></p>
-            <form>
-                <label for="name">Full Name:</label>
-                <input id="name" type="text" autocomplete="name">
-                <label for="email">Email:</label>
-                <input id="email" type="text" autocomplete="email">
-                <label for="phone">Phone:</label>
-                <input id="phone" type="tel" autocomplete="tel">        
-                <fieldset>
-                    <legend>Preferred Contact Method:</legend>
-                    <input id="tel" type="radio" name="tel" value="tel">
-                    <label for="tel">Phone</label>
-                    <input id="mail" type="radio" name="mail" value="mail">
-                    <label for="mail">Email</label>
-                </fieldset>
-                <label for="message">Message:</label><br>
-                <textarea id="message"></textarea>
-                <input type="submit" name="submit" value="Submit">
-            </form>    
+        </form>
+        <form>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" autocomplete="name">
+            <label for="email">Email:</label>
+            <input id="email" type="text" autocomplete="email">
+            <label for="phone">Phone:</label>
+            <input id="phone" type="tel" autocomplete="tel">        
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <input id="tel" type="radio" name="tel" value="tel">
+            <label for="tel">Phone</label>
+            <input id="mail" type="radio" name="mail" value="mail">
+            <label for="mail">Email</label>
+        </fieldset>
+            <label for="message">Message:</label><br>
+            <textarea id="message"></textarea>
+            <input type="submit" name="submit" value="Submit">
+        </form>    
     </main>
     
     <footer>
