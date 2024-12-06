@@ -94,11 +94,38 @@ ul a{
 	margin: 4px;
 	display: inline-flex;
 }
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+/*.light-mode {
+	background-color: white;
+	color: black;
+}/*
 /*took me some searching to find how to call the width correctly with % and not px*/
 #jinjer {
 	width: 100%;
 }
 /*struggling to get ul and h2 (sections) to move side by side trying different display methods*/
+
+#pass{
+	color: white;
+	margin-left: 45%;
+}
+#guess {
+	padding: 0.75em;
+	width: 35%;
+	height: auto;
+	margin-left: 40%;
+	color: #fff;
+	background-color: #222;
+	border: none;
+	font-family: serif;
+}
+#guessInput{
+	width: 31.5%;
+	margin-left: 40%;
+}
 
 form {
 	display: block;
